@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "novablur",
+  "version": "${version}",
+  "name": "Nova Blur",
+  "description": "Adds an adjustable screen blur (motion blur) to the game view.",
+  "authors": ["Nova Blur contributors"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.novablur.NovaBlur"] },
+  "mixins": ["novablur.mixins.json"],
+  "depends": { "fabricloader": ">=0.17.0", "fabric-api": "*", "minecraft": "1.21.11", "java": ">=21" }
+}
