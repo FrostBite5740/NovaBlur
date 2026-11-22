@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.novablur.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": ["MinecraftClientAccessor", "GameRendererAccessor", "PostEffectProcessorAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}
