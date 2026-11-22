@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.novablur.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["GameRendererMixin", "PauseScreenMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
